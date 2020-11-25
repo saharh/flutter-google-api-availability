@@ -1,3 +1,22 @@
+## 2.0.4
+
+* Android: Depend on GMS base instead of location;
+* Android: Make a clear separation between Application lifecycle and methodchannel implementation;
+* Android: Added end-to-end tests.
+
+## 2.0.3+hotfix.1
+
+* Android: Fix a possible null reference when the plugin is called from an App running in the background.
+
+## 2.0.3
+
+* Android: Migrate to FlutterPlugin Android API (better support for Add-to-App);
+
+## 2.0.2
+
+* Migrate to AndroidX
+* Synchonize Gradle and Gradle Wrapper versions with Flutter stable (1.12.13+hotfix.5)
+
 ## 2.0.1
 
 * No longer rely on the Activity object when this plugin is instantiated.
